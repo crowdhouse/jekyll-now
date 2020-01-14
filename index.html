@@ -12,7 +12,16 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more" data-category="Posts" data-action="Excerpt - Read More" data-label="Tag Manager - {{ post.url }}">Read More</a>
+      <a onclick="segment()" href="{{ site.baseurl }}{{ post.url }}" class="read-more" data-category="Posts" data-action="Excerpt - Read More" data-label="Tag Manager">Read More</a>
     </article>
   {% endfor %}
 </div>
+
+<script>
+  function segment() {
+   analytics.track("Read More", {
+      category: "Posts",
+      action: "Excerpt - Read More",
+      label: "Segment"
+    }); 
+  }
