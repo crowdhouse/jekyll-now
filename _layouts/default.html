@@ -61,5 +61,15 @@
   logins: 5
 });
     </script>
+    
+    <script>
+  function segment() {
+   analytics.track("Read More", {
+      category: "Posts",
+      action: "Excerpt - Read More",
+      label: "Segment"
+    }); 
+  }
+</script>
   </body>
 </html>
