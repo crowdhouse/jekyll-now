@@ -70,25 +70,21 @@
     </script>
     
     <script>
-   analytics.track('Order completed', {
-  checkout_id: 222,
-  order_id: 123456,
-  revenue: 6454,
-  category: 'Transactions',
-  deal_type: 'Sole Ownership',
-  label: 'Active / Sole Ownership',
-  products: [
-    {
-      product_id: 208,
-      category: 'Sole Ownership',
-      name: 'ZH Zürich, Alfred Escher-Strasse 11',
-      price: 100000,
-      currency: 'CHF',
-      position: 2,
-      return_on_equity: 5.2,
-      apartments: 24,
-    },
-  ]
+   analytics.track('Product Viewed', {
+  product_id: '507f1f77bcf86cd799439011',
+  sku: 'G-32',
+  category: 'Games',
+  name: 'Monopoly: 3rd Edition',
+  brand: 'Hasbro',
+  variant: '200 pieces',
+  price: 18.99,
+  quantity: 1,
+  coupon: 'MAYDEALS',
+  currency: 'usd',
+  position: 3,
+  value: 18.99,
+  url: 'https://www.example.com/product/path',
+  image_url: 'https://www.example.com/product/path.jpg'
 });
 </script>
   </body>
