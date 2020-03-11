@@ -1,7 +1,7 @@
 ---
 layout: step-1
 title: Step 1
-permalink: /step-1/
+permalink: /segment-poc/step-1/
 ---
 
 Some information about you!
