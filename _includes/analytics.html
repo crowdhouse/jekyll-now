@@ -48,4 +48,19 @@ function checkoutStarted() {
     });
 };
 
+function checkoutStepCompleted() {
+    const button = document.querySelector('#button');
+    analytics.track('Checkout Step Viewed', {
+      step: button.dataset.message,
+      revenue: 6245,
+      currency: 'CHF',
+      deal_type: 'Co-ownership',
+      category: 'Checkouts',
+      label: 'co_ownership / investment_request'
+    });
+};
+
+
+
+
 </script>
