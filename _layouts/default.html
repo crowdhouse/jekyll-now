@@ -87,6 +87,14 @@
   url: 'https://www.example.com/product/path',
   image_url: 'https://www.example.com/product/path.jpg'
 });
+      analytics.track('Viewed Checkout Step', {
+  step: 1
+});
+
+analytics.track('Completed Checkout Step', {
+  step: 1
+});
+      
 </script>
   </body>
 </html>
