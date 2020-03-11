@@ -49,7 +49,7 @@ function checkoutStarted() {
 };
 
 function checkoutStepCompleted() {
-    const button = document.querySelector('#button');
+    var button = document.querySelector('#button');
     analytics.track('Checkout Step Viewed', {
       step: button.dataset.message,
       revenue: 6245,
