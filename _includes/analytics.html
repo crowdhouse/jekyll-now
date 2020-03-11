@@ -50,7 +50,7 @@ function checkoutStarted() {
 
 function checkoutStepCompleted() {
     var button = document.querySelector('#button');
-    analytics.track('Checkout Step Viewed', {
+    analytics.track('Checkout Step Completed', {
       step: button.dataset.message,
       revenue: 6245,
       currency: 'CHF',
