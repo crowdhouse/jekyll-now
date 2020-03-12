@@ -4,7 +4,7 @@ title: Step 2
 permalink: /step-2/
 ---
 
-Some information about you! sdf
+Some information about step 2
 
 ### Step 2
 

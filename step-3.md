@@ -4,7 +4,7 @@ title: Step 3
 permalink: /step-3/
 ---
 
-Some information about you!
+Some information about step 3
 
 ### Step 3
 
