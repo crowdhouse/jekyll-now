@@ -18,35 +18,4 @@ analytics.identify('10203', {
   revenue: 25343
 });
 
-function checkoutStarted() {
-    analytics.track('Checkout Started', {
-      revenue: 6245,
-      currency: 'CHF',
-      deal_type: 'Co-ownership',
-      category: 'Checkouts',
-      label: 'co_ownership / investment_request',
-      products: [
-        {
-          product_id: 143,
-          name: 'Dorfstrasse 32, 8904',
-          category: 'Co-ownership',
-          canton: 'ZH',
-          return_on_equity: 5.2,
-          apartments: 6,
-          deal_market_value: 3300000,
-          position: 3,
-          image_url: 'http://placehold.it/300x300',
-          gross_return: 4.1,
-          url: 'https://app-invest.crowdhouse.ch/property/143',
-          online_on: 1583969591,
-          finannced_on: 1583969591,
-          min_investment: 100000,
-          mortgage_term: 5,
-          checkout_type: 'Investment request',
-          price: 100000
-        }
-      ]
-    });
-};
-
 </script>
