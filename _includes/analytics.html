@@ -82,7 +82,7 @@ function orderComplete() {
 function checkoutStepCompleted() {
     var button = document.querySelector('#button');
 
-    analytics.track('Checkout Step Completed', {
+    analytics.track('Completed Checkout Step', {
       step: parseFloat(button.dataset.message),
       revenue: 6245,
       currency: 'CHF',
