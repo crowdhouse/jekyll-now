@@ -8,7 +8,7 @@ Some information about you!
 
 ### Step 1
 
-A place to include any other types of information that you'd like to include about yourself.
+Don't forget to check the events that are passing through here.
 
 ### Contact me
 
