@@ -5,7 +5,7 @@ permalink: /step-3/
 ---
 
 Some information about step 3
-Amazing
+Amazing isn't it
 
 ### Step 3
 
