@@ -49,7 +49,7 @@ function checkoutStarted() {
 };
 
 function orderComplete() {
-    analytics.track('Order Complete', {
+    analytics.track('Order Completed', {
       revenue: 6245,
       order_id: 542425445,
       currency: 'CHF',
@@ -82,7 +82,7 @@ function orderComplete() {
 function checkoutStepCompleted() {
     var button = document.querySelector('#button');
 
-    analytics.track('Completed Checkout Step', {
+    analytics.track('Checkout Step Viewed', {
       step: parseFloat(button.dataset.message),
       revenue: 6245,
       currency: 'CHF',
