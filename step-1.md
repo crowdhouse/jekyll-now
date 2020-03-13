@@ -3,6 +3,7 @@ layout: step-1
 title: Payment Details
 permalink: /step-1/
 step: 1
+payment_method: payPal
 ---
 
 Some information about step 1

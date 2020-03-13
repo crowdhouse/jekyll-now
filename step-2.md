@@ -3,6 +3,8 @@ layout: step-2
 title: Shipping Details
 permalink: /step-2/
 step: 2
+shipping_method: fedEx
+payment_method: payPal
 ---
 
 Some information about step 2
