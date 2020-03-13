@@ -9,6 +9,6 @@ layout: default
   <div class="entry">
     {{ content }}
 
-    <a href="/segment-poc/step-1/" onClick="checkoutStarted()" id="button-start">Go to checkout</a>
+    <a href="/segment-poc/step-1/" onClick="dataLayer.push({'event': 'checkoutStarted'});" id="button-start">Go to checkout</a>
   </div>
 </article>
