@@ -1,7 +1,7 @@
 ---
-layout: step-3
+layout: confirm
 title: Complete order
-permalink: /step-3/
+permalink: /confirm/
 ---
 
 Some information about step 3
