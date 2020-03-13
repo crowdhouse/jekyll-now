@@ -2,6 +2,7 @@
 layout: step-2
 title: Shipping Details
 permalink: /step-2/
+step: 2
 ---
 
 Some information about step 2

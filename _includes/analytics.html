@@ -23,6 +23,20 @@ function checkoutStarted() {
   window.dataLayer.push({
     'event': 'checkoutStarted'
   });
-}
+};
+
+function checkoutStepCompleted() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'checkoutStepCompleted',
+    'step': parseFloat(button.dataset.message)
+  });
+};
+
+analytics.track('Checkout Step Viewed', {
+  step: {{ page.step }},
+  payment_method: '{{ page.payment_method }}',
+  shipping_method: '{{ page.shipping_method }}'
+});
 
 </script>
