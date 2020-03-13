@@ -33,10 +33,4 @@ function checkoutStepCompleted() {
   });
 };
 
-analytics.track('Checkout Step Viewed', {
-  step: {{ page.step }},
-  payment_method: '{{ page.payment_method }}',
-  shipping_method: '{{ page.shipping_method }}'
-});
-
 </script>
