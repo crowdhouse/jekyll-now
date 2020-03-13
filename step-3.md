@@ -1,6 +1,6 @@
 ---
 layout: step-3
-title: Step 3
+title: Complete order
 permalink: /step-3/
 ---
 

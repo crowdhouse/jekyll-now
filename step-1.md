@@ -1,6 +1,6 @@
 ---
 layout: step-1
-title: Step 1
+title: Payment Details
 permalink: /step-1/
 ---
 
