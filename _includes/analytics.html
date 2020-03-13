@@ -22,7 +22,7 @@ function checkoutStepCompleted() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'checkoutStepCompleted',
-    'step': parseFloat(button.dataset.message)
+    'step': {{ page.step }}
   });
 };
 
