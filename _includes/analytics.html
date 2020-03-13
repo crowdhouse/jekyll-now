@@ -18,4 +18,11 @@ analytics.identify('10203', {
   revenue: 25343
 });
 
+function checkoutStarted() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'checkoutStarted'
+  });
+}
+
 </script>
