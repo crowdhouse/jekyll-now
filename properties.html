@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Properties
+permalink: /properties/
 ---
 
 <div id="main" role="main" class="container">
@@ -13,9 +14,10 @@ title: Properties
       <ul>
         {% for property in site.properties %}
           <li>
-            <h2>{{ property.name }}</h2>
+            <a href="{{ property.url }}">
+            <h2>{{ property.name }}></h2>
             <h3>{{ property.canton }}</h3>
-            <p>{{ property.content | markdownify }}</p>
+            </a>
           </li>
         {% endfor %}
       </ul>
