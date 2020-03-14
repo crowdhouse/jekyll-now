@@ -11,7 +11,7 @@ layout: default
     <div class="entry">
       {{ content }}
 
-      <a href="/segment-poc/product/{{ page.product_id }}/step-{{ page.next_step }}/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'account_type': '{{ page.account_type }}','nationality': '{{ page.nationality }}','permit': '{{ page.permit }}, 'amount': '{{ page.amount }}'});">Continue</a>
+      <a href="/segment-poc/product/{{ page.product_id }}/step-{{ page.next_step }}/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'account_type': '{{ page.account_type }}','nationality': '{{ page.nationality }}','permit': '{{ page.permit }}', 'amount': '{{ page.amount }}'});">Continue</a>
     </div>
   </article>
 
@@ -32,4 +32,5 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
  'step': {{ page.step }}
  });
+
 </script>
