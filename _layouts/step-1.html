@@ -11,7 +11,7 @@ layout: default
     <div class="entry">
       {{ content }}
 
-      <a href="/segment-poc/step-2/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'payment_method': 'payPal','shipping_method': ''});" id="button-step-1"  data-message="1">Confirm payment details</a>
+      <a href="/segment-poc/property-{{ page.product_id }}/step-2/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'payment_method': 'payPal','shipping_method': ''});" id="button-step-1"  data-message="1">Confirm payment details</a>
     </div>
   </article>
 
