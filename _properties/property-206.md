@@ -4,7 +4,7 @@ title: Neubau – 6.8 % – Arch BE
 permalink: /property/206/
 name: BE Arch, Spismattweg 13 & 15
 product_id: 206
-category: co-ownership
+category: sole-ownership
 canton: Bern
 price: 6820000
 position: 4
