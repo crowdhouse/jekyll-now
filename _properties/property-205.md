@@ -4,7 +4,7 @@ title: In der Stadt vor der Stadt
 permalink: /property/205/
 name: BL Reinach, Therwilerstrasse 81/83
 product_id: 205
-category: co-ownership
+deal_type: co-ownership
 canton: Basel
 price: 5983000
 position: 2

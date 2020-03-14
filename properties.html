@@ -43,9 +43,9 @@ permalink: /properties/
     products: [
       {% for property in site.properties %}
       {
-        'name': '{{ property.title }}',
+        'name': '{{ property.name }}',
         'product_id': '{{ property.product_id }}',
-        'category': '{{ property.category }}',
+        'deal_type': '{{ property.deal_type }}',
         'canton': '{{ property.canton }}',
         'price': {{ property.price }},
         'position': {{property.position}},
@@ -65,7 +65,7 @@ permalink: /properties/
       {
         'name': 'Test',
         'product_id': '454',
-        'category': 'co-ownership',
+        'deal_type': 'co-ownership',
         'canton': 'Basel',
         'price': 345493855,
         'position': 6,
