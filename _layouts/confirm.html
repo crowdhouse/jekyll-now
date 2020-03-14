@@ -11,7 +11,7 @@ layout: default
     <div class="entry">
       {{ content }}
 
-      <a href="/segment-poc/thank-you/" id="button-step-3" >Confirm order</a>
+      <a href="/segment-poc/thank-you/" id="button-step-3" onClick="orderComplete()">Confirm order</a>
     </div>
   </article>
 
@@ -26,3 +26,31 @@ layout: default
 </div>
 
 {% include analytics.html %}
+
+<script>
+
+  function orderComplete() {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+     'event': 'product_detail_viewed',
+     'name': '{{ page.name }}',
+     'product_id': '{{ page.product_id }}',
+     'deal_type': '{{ page.deal_type }}',
+     'canton': '{{ page.canton }}',
+     'price': {{ page.price }},
+     'position': {{page.position}},
+     'deal_market_value': {{ page.deal_market_value }},
+     'purchase_price': {{ page.purchase_price }},
+     'image_url': '{{ page.image_url }}',
+     'url': '{{ page.url }}',
+     'online_on': {{ page.online_on }},
+     'min_investment': {{ page.min_investment }},
+     'mortgage_term': {{ page.mortgage_term }},
+     'apartments': {{ page.apartments }},
+     'return_on_equity': {{ page.return_on_equity }},
+     'rental_income': {{ page.rental_income }},
+     'brutto_rendite': {{ page.brutto_rendite }},
+     'revenue': {{ page.revenue }}
+     });
+  };
+</script>
