@@ -19,6 +19,7 @@ mortgage_term: 10
 apartments: 23
 return_on_equity: 6
 brutto_rendite: 4.07
+revenue: 3452
 ---
 
 Some information about step 1
