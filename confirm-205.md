@@ -1,7 +1,7 @@
 ---
 layout: confirm
 title: Complete order
-permalink: /property/205/confirm/
+permalink: /product/205/confirm/
 name: BL Reinach, Therwilerstrasse 81/83
 product_id: 205
 deal_type: co-ownership
