@@ -1,0 +1,33 @@
+---
+layout: default
+title: Properties
+---
+
+<div id="main" role="main" class="container">
+
+  <article class="page">
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="entry">
+      <ul>
+        {% for property in site.properties %}
+          <li>
+            <h2>{{ property.name }}</h2>
+            <h3>{{ property.canton }}</h3>
+            <p>{{ property.content | markdownify }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </article>
+
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+      {% include svg-icons.html %}
+    </footer>
+  </div>
+</div>
