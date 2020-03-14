@@ -1,7 +1,7 @@
 ---
 layout: confirm
 title: Complete order
-permalink: /product/205/confirm/
+permalink: /product/205/step-confirm/
 name: BL Reinach, Therwilerstrasse 81/83
 product_id: 205
 deal_type: co-ownership
@@ -24,8 +24,7 @@ revenue: 3452
 
 Some information about step 3
 
-
-### Step 3
+### Confirm
 
 A place to include any other types of information that you'd like to include about yourself.
 
