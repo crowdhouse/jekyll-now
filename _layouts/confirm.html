@@ -11,7 +11,7 @@ layout: default
     <div class="entry">
       {{ content }}
 
-      <a href="/segment-poc/thank-you/" id="button-step-3" onClick="orderComplete()">Confirm order</a>
+      <a href="/segment-poc/thank-you/" id="button-step-3">Confirm order</a>
     </div>
   </article>
 
@@ -29,7 +29,6 @@ layout: default
 
 <script>
 
-  function orderComplete() {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
      'event': 'product_detail_viewed',
@@ -52,5 +51,4 @@ layout: default
      'brutto_rendite': {{ page.brutto_rendite }},
      'revenue': {{ page.revenue }}
      });
-  };
 </script>
