@@ -12,7 +12,7 @@ purchase_price: 5560000
 rental_income: 226188
 image_url:
 url: https://crowdhouse.github.io/segment-poc/property/205
-online_on:
+online_on: 1583094020
 financed_on:
 min_investment: 100000
 mortgage_term: 10
