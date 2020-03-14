@@ -14,7 +14,7 @@ permalink: /properties/
       <ul>
         {% for property in site.properties %}
           <li>
-            <a href="/{{ property.url }}">
+            <a href="segment-poc/{{ property.url }}">
             <h2>{{ property.name }}</h2>
             <h3>{{ property.canton }}</h3>
             </a>
@@ -33,3 +33,9 @@ permalink: /properties/
     </footer>
   </div>
 </div>
+
+{% include analytics.html %}
+
+<script type="text/javascript">
+
+</script>
