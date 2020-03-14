@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main" class="container">
 
-  <article class="page">
+  <article class="property">
 
     <h1>{{ page.title }}</h1>
 
@@ -30,22 +30,22 @@ layout: default
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
  'event': 'product_detail_viewed',
- 'name': '{{ page.title }}',
- 'product_id': '{{ page.product_id }}',
- 'category': '{{ page.category }}',
- 'canton': '{{ page.canton }}',
- 'price': {{ page.price }},
- 'position': {{page.position}},
- 'deal_market_value': {{ page.deal_market_value }},
- 'purchase_price': {{ page.purchase_price }},
- 'image_url': '{{ page.image_url }}',
- 'url': '{{ page.url }}',
- 'online_on': {{ page.online_on }},
- 'min_investment': {{ page.min_investment }},
- 'mortgage_term': {{ page.mortgage_term }},
- 'apartments': {{ page.apartments }},
- 'return_on_equity': {{ page.return_on_equity }},
- 'rental_income': {{ page.rental_income }},
- 'brutto_rendite': {{ page.brutto_rendite }}
+ 'name': '{{ property.title }}',
+ 'product_id': '{{ property.product_id }}',
+ 'category': '{{ property.category }}',
+ 'canton': '{{ property.canton }}',
+ 'price': {{ property.price }},
+ 'position': {{property.position}},
+ 'deal_market_value': {{ property.deal_market_value }},
+ 'purchase_price': {{ property.purchase_price }},
+ 'image_url': '{{ property.image_url }}',
+ 'url': '{{ property.url }}',
+ 'online_on': {{ property.online_on }},
+ 'min_investment': {{ property.min_investment }},
+ 'mortgage_term': {{ property.mortgage_term }},
+ 'apartments': {{ property.apartments }},
+ 'return_on_equity': {{ property.return_on_equity }},
+ 'rental_income': {{ property.rental_income }},
+ 'brutto_rendite': {{ property.brutto_rendite }}
  });
 </script>
