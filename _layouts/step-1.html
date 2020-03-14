@@ -2,13 +2,27 @@
 layout: default
 ---
 
-<article class="page">
+<div id="main" role="main" class="container">
 
-  <h1>{{ page.title }}</h1>
+  <article class="page">
 
-  <div class="entry">
-    {{ content }}
+    <h1>{{ page.title }}</h1>
 
-    <a href="/segment-poc/step-2/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'payment_method': 'payPal','shipping_method': ''});" id="button-step-1"  data-message="1">Confirm payment details</a>
+    <div class="entry">
+      {{ content }}
+
+      <a href="/segment-poc/step-2/" onClick="dataLayer.push({'event': 'checkoutStepCompleted','step': {{ page.step }},'payment_method': 'payPal','shipping_method': ''});" id="button-step-1"  data-message="1">Confirm payment details</a>
+    </div>
+  </article>
+
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+      {% include svg-icons.html %}
+    </footer>
   </div>
-</article>
+</div>
+
+{% include analytics.html %}

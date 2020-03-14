@@ -2,13 +2,27 @@
 layout: default
 ---
 
-<article class="page">
+<div id="main" role="main" class="container">
 
-  <h1>{{ page.title }}</h1>
+  <article class="page">
 
-  <div class="entry">
-    {{ content }}
+    <h1>{{ page.title }}</h1>
 
-    <a href="/segment-poc/thank-you/" id="button-step-3" >Confirm order</a>
+    <div class="entry">
+      {{ content }}
+
+      <a href="/segment-poc/thank-you/" id="button-step-3" >Confirm order</a>
+    </div>
+  </article>
+
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+      {% include svg-icons.html %}
+    </footer>
   </div>
-</article>
+</div>
+
+{% include analytics.html %}
