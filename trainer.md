@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: In der Stadt vor der Stadt
-permalink: /property/205
+permalink: /property/205/
 name: BL Reinach, Therwilerstrasse 81/83
 product_id: 205
 category: co-ownership
