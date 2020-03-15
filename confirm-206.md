@@ -2,7 +2,7 @@
 layout: confirm
 title: Complete order
 permalink: /product/206/step-confirm/
-names: BE Arch, Spismattweg 13 & 15
+name: BE Arch, Spismattweg 13 & 15
 product_id: 206
 deal_type: sole-ownership
 canton: Bern

@@ -2,7 +2,7 @@
 layout: confirm
 title: Complete order
 permalink: /product/205/step-confirm/
-names: BL Reinach, Therwilerstrasse 81/83
+name: BL Reinach, Therwilerstrasse 81/83
 product_id: 205
 deal_type: co-ownership
 canton: Basel
